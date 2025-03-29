@@ -2,9 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- 完整的Favicon支持 -->
+    <!-- 传统favicon (for IE and non-webkit browsers) -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <!-- 现代SVG图标 (for modern browsers) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- PNG格式图标 (fallback for browsers that don't support SVG) -->
+    <link rel="icon" type="image/png" href="/favicon-192.svg" sizes="192x192" />
+
+    <!-- iOS设备图标 -->
+    <link rel="apple-touch-icon" href="/favicon-192.svg" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- PWA主题色 -->
+    <meta name="theme-color" content="#3b82f6" />
+    <!-- PWA应用清单 -->
+    <link rel="manifest" href="/manifest.json" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Image to Text Converter</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z665VD3FVD"></script>
     <script>
@@ -14,8 +32,8 @@
 
       gtag('config', 'G-Z665VD3FVD');
     </script>
-    <script type="module" crossorigin src="/assets/index-BbAdjr7x.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CnW1GZsq.css">
+    <script type="module" crossorigin src="/assets/index-DRo1PnXD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CpOnX1k4.css">
   </head>
   <body>
     <div id="root"></div>
