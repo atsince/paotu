@@ -1,7 +1,7 @@
 {
-  "name": "Image to Text Converter",
-  "short_name": "OCR App",
-  "description": "Convert images to text using OCR technology",
+  "name": "Image2Text Converter",
+  "short_name": "Image2Text",
+  "description": "Free online image2text OCR tool to convert photos, screenshots and images to editable text",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
